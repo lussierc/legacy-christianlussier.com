@@ -10,7 +10,10 @@ The main directory of the website's repository holds a variety of files and fold
 ## Issues, Feature Ideas, or Concerns?
 If you notice any issues, bugs, have ideas about new features for the website, or anything else please let me know. Don't hesitate to leave in issue in the `Issues` tab of this repository or contact me at lussierc@allegheny.edu.
 
-## Accessing the Website
+## Installation
+You can access the files of this website locally either by downloading the repository or by using GitHub commands to clone it.
+
+## Usage -- Accessing the Website
 To access the website, there are two main ways this can be done. The easiest way to do this would be to access the website from your internet browser, using this link to access [My Personal Website](https://christianlussier.netlify.com). You can also clone or download this repository and open the website locally.
 
 ## Future Plans
