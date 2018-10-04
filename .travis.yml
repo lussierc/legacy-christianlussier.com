@@ -1,3 +1,1 @@
 # run checks on Markdown writing through proselint script:
-  # Markdown
-  - proselint README.md
