@@ -3509,11 +3509,13 @@ article.blog-single .blog-content {
     background-color: #0D0A0B;
     background-repeat: no-repeat;
     background-position: center, center;
+    /* MAKES THE IMAGE COVER THE SIZE */
+    background-size: cover;
     padding-top: 20.4rem;
     padding-bottom: 7.2rem;
     position: relative;
     color: rgba(255, 255, 255, 0.5);
-    min-height: 50.4rem;
+    min-height: 5.4rem;
 }
 
 .page-header--single {
