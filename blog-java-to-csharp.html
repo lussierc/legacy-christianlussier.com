@@ -10,7 +10,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Christian Lussier - Blog Post - GitHub Classroom</title>
+    <title>Christian Lussier - Blog Post - Java to C#</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -66,22 +66,22 @@
 
         <!-- page header/blog hero
         ================================================== -->
-        <div class="page-header page-header--single page-hero" style="background-image:url(images/blog/blog-bg-03.jpg)">
+        <div class="page-header page-header--single page-hero" style="background-image:url(images/blog/blog-bg-04.jpg)">
 
             <div class="row page-header__content narrow">
                 <article class="col-full">
                     <div class="page-header__info">
                         <div class="page-header__cat">
-                            <a href="#0">Computer Science</a><a href="#0">GitHub</a><a href="#0">Education</a>
+                            <a href="#0">Computer Science</a>
                         </div>
                     </div>
                     <h1 class="page-header__title">
                         <a href="#0" title="">
-                            GitHub Classroom from a Student's Perspective
+                            Quick Start Guide: Java to C#
                         </a>
                     </h1>
                     <ul class="page-header__meta">
-                        <li class="date">November 27, 2018</li>
+                        <li class="date">December 4, 2018</li>
                         <li class="author">
                             By
                             <span>Christian Lussier</span>
@@ -96,35 +96,38 @@
         <div class="row blog-content">
             <div class="col-full blog-content__main">
 
-                <p class="lead">Before I entered college, I had heard a lot about GitHub in my technology courses and used it a little bit in my free time. However, once I entered college I began to utilize a tool I never realized GitHub had in GitHub Classroom. GitHub Classroom is a workflow tool that educators can use to set up GitHub repositories for code examples, student assignments, and more. As a Computer Science major, I interact with GitHub Classroom on an almost daily basis and I have found it to be extremely helpful in enhancing my education. </p>
-                <p> While in high school, I had used GitHub very infrequently. However, in college, all of my Computer Science classes have utilized GitHub Classroom and I feel it has been a great tool in my learning. GitHub Classroom allows students to complete assignments in private repositories which means that if a student is struggling or isn't exactly proud of their work, it is not public meaning nobody else has to see it. It is also helpful for both professors and students in that it is easy for professors to access their students' assignment repository and grade them, meaning students get their grades quicker and professors save time. </p>
-                <p>The GitHub Classroom tool also does a good job at exposing students to the GitHub flow model and industry ideas. It offers students a safe space to learn about how commits, pulling, pushing, pull requests, and the issue tracker work. As a student, I have found this to be very beneficial because after utilizing these tools in GitHub Classroom through several courses, I now feel that I have a very good understanding of these industry tools. Additionally, as a teaching assistant in a course that uses GitHub Classroom, I have seen students learn more and more about how GitHub works throughout the semester. At the beginning of the semester some students were struggling to commit code to their repositories, but now these students are having no issues and have a greater understanding of the GitHub flow model. </p>
-                <p>Another great tool that GitHub Classroom offers is the ability to have free teams. When placed in teams for assignments you are forced to work together with team members to complete software projects. I have really enjoyed this experience as you get to work with other people and see their insights into how they would solve certain coding problems. Additionally, when in teams, students can create pull requests and other students can complete code reviews on them. Teamwork is often used on coding projects in the industry so by offering free teams, GitHub Classroom has been very helpful in learning the skills necessary to be successful in a team-based setting. </p>
-                <p> Overall, GitHub Classroom has been very helpful in helping me understand the GitHub flow model and skills needed in the software development industry. I am very appreciative the experience GitHub Classroom has provided me as a student. I feel that all institutions should consider trying out GitHub Classroom and seeing if it fits their needs as it could be very beneficial to Computer Science students. </p>
+                <p class="lead">I have recently been taking the time to learn more programming languages. Recently I have been experimenting with C# and I have seen the many similarities betweent this programming language and Java. I began to think, if I were to write a simple guide that explains how Java programmers can convert their Java classes into C#, what things that I would include?</p>
+                <p> Here are five things I would include in such a guide: </p>
+                <ul>
+                  <li>There is a difference in importing things when comparing Java to C#. In Java, you can import needed packages, classes, and more by simply using the keyword “import”. For example, to import needed Java “util” files, you would type “import java.util.*;”. However, to import needed files in C#, you would need to use a different keyword, “using”. For example, to import “System” in C#, you would need to type “using System;”. This is important to know because if you are a Java programmer who does not know much about C#, you likely will not know the difference in these importing keywords, which could cause troubles if you need to import or “use” things in C#.
+                  <li> There is also a difference in declaring variables when comparing Java to C#. It is a subtle difference, but it is one that could cause errors if it is not noticed. The difference comes in the form of the case of the first character of the object you are creating. In Java, this first character must be upper-case. However, in C#, this character should be lowercase. For example, when declaring a string in Java you would do “String exampleString;”. Notice that the first letter in “String” is uppercase. However, when you declare a string in C#, you should type “string exampleString;”. Notice that the first letter in “string” is lowercase. This is a small difference, but it is important to successfully converting a Java class or program to one in C#. </li>
+                  <li>There is a difference when printing or outputting information in Java when compared to C#. In Java, to print a new line, you would use the code “System.out.println();”. So for example, if you wanted to print out a line that says “Hello!” you would type, “System.out.println(“Hello!”);”. This print line command is different than that of C#. In C#, to print a new line, you would use the code “Console.WriteLine();”. So to print out “Hello!” in C#, you would type, “Console.WriteLine(“Hello!”);”. It is important to note this difference when it comes to printing things in Java versus C#, because many programs print something out in some capacity. So, if you are converting your Java program that prints something out to a C# program, it is important to know this key difference. </li>
+                  <li> One important thing to know about when working with classes in C# is the idea of a “namespace”. A namespace is used to organize code. This is used in C# when one is working with classes that are spread across multiple files. So if you wanted to create a main file for a C# program that uses a class located in a different file, you should use this namespace keyword. Once you have created a namespace with the class you want to use, in the class you want to use it in you must import it using the “using” keyword. Note that if you are creating a program with all of it’s classes in one file, it is not necessary to use this keyword. Such an idea is not utilized in Java so it is important for a Java programmer to know about this if they intend to convert their Java classes into C# classes. </li>
+                  <li>  When comparing classes in Java to classes in C#, there are also differences in classes overall. According to developerdrive.com, Java offers full support for instance-level inner classes, whereas if you wanted to use this type of class in C#, you would have to do several workarounds to do this. Additionally, Java does not support partial classes in any capacity whereas C# does. It is also important to note that there is a difference between Java and C# when it comes to anonymous classes. An anonymous class is a class without a name. In Java, anonymous classes are implicit, whereas in C#, anynomous classes are defined at the statement-level. For a Java programmer who wants to convert their Java classes to C# classes, it is important to know these differences about how classes function in each language. </li>
+                  <ul style="list-style-type:square"> <li> Reference: http://www.developerdrive.com/2012/06/5-differences-between- c-and-java-objects-and-classes/ </li> </ul>
+                </ul>
+                <p>This simple guide should help a Java programmer successfully convert their Java classes into C#. There are actually many similarities between Java and C#. For example, {}’s are used in accordance with methods in both languages. Similarly, semicolons appear at the ends of lines in both languages. Both languages are also object-oriented programming languages. However, there are many differences between the two languages. For example, Java does not support object overloading but C# does. As mentioned in the guide, there are also differences when it comes to printing lines and declaring variables such as that of a string. Overall, Java and C# are both object-oriented programming languages that are very similar but face several subtle differences that could confuse a Java programmer who is trying to convert their Java programs or classes to C#. </p>
 
                 <p class="blog-content__tags">
                     <span>Post Tags</span>
 
                     <span class="blog-content__tag-list">
                         <a href="#0">computer science</a>
-                        <a href="#0">github</a>
-                        <a href="#0">education</a>
-                        <a href="#0">open source</a>
                     </span>
                 </p>
 
                 <div class="blog-content__pagenav">
                     <div class="blog-content__nav">
                         <div class="blog-content__prev">
-                            <a href="blog-importance-of-data-security.html" rel="prev">
+                            <a href="blog-github-classroom-student-perspective.html" rel="prev">
                                 <span>Previous Post</span>
-                                The Importance of Data Security
+                                GitHub Classroom from a Student's Perspective
                             </a>
                         </div>
                         <div class="blog-content__next">
-                            <a href="blog-java-to-csharp.html" rel="next">
+                            <a href="blog-importance-of-data-security.html" rel="next">
                                 <span>Next Post</span>
-                                Quick Start Guide: Java to C#
+                                Importance of Data Security
                             </a>
                         </div>
                     </div>
