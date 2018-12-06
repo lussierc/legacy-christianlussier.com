@@ -3,6 +3,7 @@
 // Replace this with your own email address
 $siteOwnersEmail = 'lussierc@allegheny.edu';
 
+$error = [];
 
 if($_POST) {
 
@@ -44,7 +45,8 @@ if($_POST) {
     $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
 
-    if (!$error) {
+    if(!isset($error)){//no errors}
+    else if (!$error) {
 
         ini_set("sendmail_from", $siteOwnersEmail); // for windows server
         $mail = mail($siteOwnersEmail, $subject, $message, $headers);
