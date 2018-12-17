@@ -27,4 +27,4 @@ Here is an example of the desktop version running in Safari:
 
 
 Here is an example of the mobile version of the website in action:
-![Mobile version of website](docs/readme-images/mobile-homepagetop.png)
+![Mobile version of website](docs/readme-images/mobile-homepagetop.PNG)
