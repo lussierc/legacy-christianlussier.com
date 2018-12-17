@@ -23,4 +23,8 @@ This website is currently a work in progress. As a result in the near future I p
 Though the website is currently a work in progress it functions as intended. It is both desktop and mobile ready.
 
 Here is an example of the desktop version running in Safari:
-![Desktop version of website](images/readme-images/desktop-homepagetop.png)
+![Desktop version of website](docs/readme-images/desktop-homepagetop.png)
+
+
+Here is an example of the mobile version of the website in action:
+![Mobile version of website](docs/readme-images/mobile-homepagetop.png)
