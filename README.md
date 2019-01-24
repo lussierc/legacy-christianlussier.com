@@ -2,7 +2,7 @@
 The files for work-in progress personal website of Christian Lussier.
 
 ## Development Process
-I developed this website fairly quickly by using a free template. A link to the designer of this template can be found in the footer of the website. I then customized the template by adding information about myself to the website. I also removed unneeded features.
+I developed this website by using a free template. A link to the designer of this template can be found in the footer of the website. I then customized the template by adding information about myself to the website. I also removed unneeded features.
 
 ## Navigating the Files
 The main directory of the website's repository holds a variety of files and folders. The main directory holds files such as the `index.html` file, which is the website's main file, the `styles.html` file, and other HTML files for the blog. The folder `css` contains the `.css` files that serve as the website's stylesheet. There is also the `fonts` folder that contains sub-folders that contain the content needed for the different fonts used in the website. The `images` file contains a variety of images and folders, containing more images, that are used throughout the website. The `inc` folder contains a `.php` file that is used as the form for the contact section of the website. The `js` folder contains the JavaScript files used as apart of the website. The `dls` folder contains the viewable and downloadable files available on the website. The only current file in this folder is that of my résumé.
