@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Christian Lussier - Blog Post - Petition-Pronto</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html"><img src="images/logo.png" alt="Homepage"></a>
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li><a href="index.html#home" title="home">Home</a></li>
+                <li><a href="index.html#about" title="about">About</a></li>
+                <li><a href="index.html#projects" title="project">Projects</a></li>
+                <li class="current"><a href="blog.html" title="blog">Blog</a></li>
+                <li><a href="index.html#contact" title="contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+    <article class="blog-single">
+
+        <!-- page header/blog hero
+        ================================================== -->
+        <div class="page-header page-header--single page-hero" style="background-image:url(images/blog/blog-bg-02.jpg)">
+
+            <div class="row page-header__content narrow">
+                <article class="col-full">
+                    <div class="page-header__info">
+                        <div class="page-header__cat">
+                            <a href="#0">Computer Science</a><a href="#0">Learning</a>
+                        </div>
+                    </div>
+                    <h1 class="page-header__title">
+                        <a href="#0" title="">
+                            Creating Petition-Pronto
+                        </a>
+                    </h1>
+                    <ul class="page-header__meta">
+                        <li class="date">May 1, 2019</li>
+                        <li class="author">
+                            By
+                            <span>Christian Lussier</span>
+                        </li>
+                    </ul>
+
+                </article>
+            </div>
+
+        </div> <!-- end page-header -->
+
+        <div class="row blog-content">
+            <div class="col-full blog-content__main">
+
+                <p class="lead">
+                  I recently was invited to be the team leader for a collaborative project that would be used in the education industry. This tool, entitled Petition-Pronto, would be used by students to submit petitions and by faculty to approve or disprove them at Allegheny College. While working on the project I created and maintained an SQLite3 database, wrote Python code, used the GitHub flow model, and led my team.
+                </p>
+                <p align="center">
+                    <img src="images/blog/PetitionLogo.jpg"
+                         srcset="images/blog/PetitionLogo.jpg,
+                            images/blog/PetitionLogo.jpg,
+                            images/blog/PetitionLogo.jpg"
+                         sizes="(max-width: 2000px) 100vw, 2000px" alt="">
+                </p>
+                <p>
+                  Tentatively, Petition-Pronto is expected to be used by students and faculty at Allegheny Collge during the upcoming academic year.
+                  Petition-Pronto is a website where students can fill out a form with their information to submit a petition to a specified academic department's faculty.
+                  Students could write their petition's to change, for instance, their graduation requirements or substitute one class in the place of another.
+                  Once the form is submitted, when faculty members of the specified department login to the website, they will see it appear in the unreviewed petitions section of the homepage for logged in users.
+                  They can then click on an "Inspect" button that resides next to the basic petition information, which will display more detailed petition information as well as the petition text itself.
+                  On this page, they can then approve or disprove the petition. Once the petition is reviewed by all the department's faculty members,
+                  an email will be sent to the students and faculty members who reviewed the petition, letting them know the result (whether it was approved or not) of the petition voting.
+                </p>
+                <p>
+                  Petition-Pronto will be apart of a suite of tools created by the GatorEducator organization on GitHub.
+                  This suite of tools will be used for the enhancement of the education experience at Allegheny College.
+                  Within this suite of tools, there are several similarly-minded tools being developed by other groups.
+                  These tools include a Course Survey tool, which allows students to share their concerns about a course to the instructor,
+                  an Academic Advising tool, to improve the communication between student and advisor, and an Interactive Quiz tool,
+                  which will allow instructors to create more customized quizzes for their students. Additionally, an Institutional Review Board Checklist tool is being developed which will allow students to get their proposals reviewed by the College's IRB.
+                  These tools will join GatorEducator's GatorGrader tool that is in use at Allegheny College and which automatically checks the work of student programmer and writers.
+                </p>
+                <p>
+                  While working on Petition-Pronto, I completed a variety of tasks.
+                  One of the first tasks I completed was creating an SQLite3 database and schema for tables that would be used by the tool.
+                  After this, I began to write Python code that would interact with this database.
+                  One of the first things I implemented was Python support to connect the user login page on Petition-Pronto's Flask-based website, which interested users can run locally using the command "<samp>python3 app.py</samp>", to the SQLite3 database.
+                  Afterward, I wrote code to get the petitions being stored in the database for a specified department, which was used for displaying student petitions to a faculty member.
+                  Additionally, I implemented code to create new user accounts in the database, which is used by Admin faculty on the website, and for users to change their passwords in the database.
+                  The most important code I implemented came when I wrote code that allowed faculty users to submit their approval decision for a petition. With this, I also implemented code
+                  that stopped faculty from voting on the same petition twice and code that determined if all the faculty had voted. If all the faculty voted, my code would then determine if the petition was approved or not.
+                  Once an overall approval decision was made, my code then connected with code written by my other team members to send emails to students and faculty.
+                  Additionally, I also wrote Python code that allowed petitions to be added to the database when a student filled out a form on the website and code that deleted a petition from the database once it was completely reviewed.
+                </p>
+
+                <figure>
+                <figcaption>Here is the schema being used in the SQLite3 database:</figcaption>
+                <pre>
+                  <code>
+                    CREATE TABLE User_Table (
+                      id INTEGER PRIMARY KEY,
+                      email TEXT NOT NULL UNIQUE,
+                      password TEXT NOT NULL,
+                      role TEXT NOT NULL,
+                      department INTEGER REFERENCES Department(ID)
+                    );
+                    CREATE TABLE Department (
+                      name TEXT NOT NULL UNIQUE,
+                      ID INTEGER PRIMARY KEY
+                    );
+                    CREATE TABLE Student_Petition (
+                      name TEXT NOT NULL,
+                      email TEXT NOT NULL,
+                      petition TEXT NOT NULL,
+                      department INTEGER REFERENCES Department(ID),
+                      petitionID INTEGER NOT NULL
+                    );
+                    CREATE TABLE Approval_Responses (
+                      petitionID INTEGER REFERENCES Student_Petition(petitionID),
+                      numOfResponses INTEGER,
+                      numOfApprovals INTEGER
+                    );
+                    CREATE TABLE Petition_Voters (
+                      petitionID INTEGER REFERENCES Student_Petition(petitionID),
+                      ID INTEGER REFERENCES User_Table(id)
+                    );
+                  </code>
+                  </pre>
+                </figure>
+                <p>
+                  As a team leader for this project, I also completed a variety of managerial tasks.
+                  For instance, I organized meetings between group members, solved any small disputes that may have arisen, and assigned team members tasks that related to their skill levels so that my team could successfully create a working tool.
+                  Additionally, I also used the GitHub flow model throughout this task to create issues for bugs and new features that were needed.
+                  I also created branches for all the features I added to the tool with Pull Requests and reviewed the Pull Requests of my fellow teammates to ensure code functionality and quality.
+                  Moreover, I also wrote documentation, such as that residing in the README for the project.
+                </p>
+
+                <p>
+                  There were a variety of valuable experiences for me during this project.
+                  I learned more about the software engineering process and creating new industry-use software.
+                  I also learned more about creating and maintaining databases with SQLite3, while learning more about using Python to interact with these databases.
+                  Additionally, I was able to experience leading a team of motivated individuals collaborating on a software project.
+                  Also, since GitHub was used for collaboration between team members and for the project itself, I learned how to better use the GitHub Flow Model.
+                  Overall, this project taught me more about databases, creating industry use software from scratch, and managing a team to create successful outcomes.
+                </p>
+
+
+
+                <div class="cta__action">
+                    <a class="btn btn--primary full-width" href="https://github.com/GatorEducator/petition-pronto">View Petition-Pronto's GitHub Repository</a>
+                </div>
+                <div class="cta__action">
+                    <a class="btn btn--primary full-width" href="https://github.com/GatorEducator/petition-pronto/commits?author=lussierc">View My Contributions To Petition-Pronto</a>
+                </div>
+
+                <p>Header Image: <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>], <a href="https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg">from Wikimedia Commons</a> </p>
+
+                <p class="blog-content__tags">
+                    <span>Post Tags</span>
+
+                    <span class="blog-content__tag-list">
+                        <a href="#0">computer science</a>
+                        <a href="#0">education</a>
+                    </span>
+                </p>
+
+                <div class="blog-content__pagenav">
+                    <div class="blog-content__nav">
+                        <div class="blog-content__prev">
+                            <a href="blog-java-to-csharp.html" rel="prev">
+                                <span>Previous Post</span>
+                                Quick Start Guide: Java to C#
+                            </a>
+                        </div>
+                        <div class="blog-content__next">
+                            <a href="blog-importance-of-data-security.html" rel="next">
+                                <span>Next Post</span>
+                                Importance of Data Security
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="blog-content__all">
+                        <a href="blog.html" class="btn btn--primary">
+                            View All Posts
+                        </a>
+                    </div>
+                </div>
+
+            </div><!-- end blog-content__main -->
+        </div> <!-- end blog-content -->
+
+    </article>
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+            <div class="row">
+                <div class="col-full">
+
+                    <div class="footer-logo">
+                        <a class="footer-site-logo" href="#0"><img src="images/logo.png" alt="Homepage"></a>
+                    </div>
+
+                    <ul class="footer-social">
+                      <li><a href="https://www.linkedin.com/in/christianlussier/">
+                          <i class="im im-linkedin" aria-hidden="true"></i>
+                          <span>LinkedIn</span>
+                      </a></li>
+                      <li><a href="https://GitHub.com/lussierc">
+                          <i class="im im-GitHub" aria-hidden="true"></i>
+                          <span>GitHub</span>
+                      </a></li>
+                      <li><a href="https://stackoverflow.com/users/9723868/lussierc">
+                          <i class="im im-stackoverflow" aria-hidden="true"></i>
+                          <span>Stack Overflow</span>
+                      </a></li>
+                      <li><a href="https://www.facebook.com/christian.lussier.96">
+                          <i class="im im-facebook" aria-hidden="true"></i>
+                          <span>Facebook</span>
+                      </a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="row footer-bottom">
+
+                <div class="col-twelve">
+                    <div class="copyright">
+                        <span>© Copyright Christian Lussier 2019</span>
+                        <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>
+                    </div>
+
+                    <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+            </div> <!-- end footer-bottom -->
+
+        </footer> <!-- end footer -->
+
+
+        <div id="preloader">
+            <div id="loader"></div>
+        </div>
+
+
+        <!-- Java Script
+        ================================================== -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+</body>
+
+</html>

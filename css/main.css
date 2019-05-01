@@ -285,7 +285,7 @@ var, kbd, samp, code, pre {
 }
 
 pre {
-    padding: 2.4rem 3rem 3rem;
+    padding: 0 0 0;
     background: #F1F1F1;
     overflow-x: auto;
 }
@@ -293,7 +293,7 @@ pre {
 code {
     font-size: 1.4rem;
     margin: 0 .2rem;
-    padding: .3rem .6rem;
+    padding: 0 0;
     white-space: nowrap;
     background: #F1F1F1;
     border: 1px solid #E1E1E1;
@@ -888,7 +888,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
    margin-right: auto;
    width: 50%;
  }
- 
+
 /* -------------------------------------------------------------------
  * ## alert box - (_alert-box.scss)
  * ------------------------------------------------------------------- */
