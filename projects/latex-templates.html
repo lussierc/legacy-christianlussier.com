@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Christian Lussier - Bosco PL</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/vendor.css">
+    <link rel="stylesheet" href="../css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="../js/modernizr.js"></script>
+    <script src="../js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+
+</head>
+
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html"><img src="../images/logo.png" alt="Homepage"></a>
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li><a href="../index.html#home" title="home">Home</a></li>
+                <li><a href="../index.html#about" title="about">About</a></li>
+                <li class="current"><a href="projects.html" title="works">Projects</a></li>
+                <li><a href="../index.html#blog" title="blog">Blog</a></li>
+                <li><a href="../index.html#contact" title="contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- page header
+    ================================================== -->
+    <section class="page-header page-hero" style="background-image:url(../images/blog/blog-bg-01.jpg)">
+
+        <div class="row page-header__content">
+            <article class="col-full">
+
+                <div class="page-header__info">
+
+                    <div class="page-header__date">
+                        Spring 2019
+                    </div>
+                </div>
+
+                <h1 class="page-header__title">
+                    <a href="#0" title="">
+                        The Bosco Programming Language
+                    </a>
+                </h1>
+                <p>
+                  The Bosco Programming Language is a simple programming language containing whimsical dog-related elements in it's grammar.
+                </p>
+                <p>
+                    <a href="https://github.com/lussierc/refinedNotepadPython" class="btn btn--stroke page-header__btn">See The GitHub Repository</a>
+                </p>
+            </article>
+        </div>
+
+    </section> <!-- end page-header -->
+
+
+    <!-- blog
+    ================================================== -->
+    <section class="blog-content-wrap">
+
+      <div class="row blog-content">
+          <div class="col-full blog-content__main">
+
+              <p class="lead">Working on Refined Notepad has been a fun learning experience that has taught me more about Python, the GitHub flow model, and industry standard practices.</p>
+
+              <!-- Project Motivation Paragraph/Intro Paragraph -->
+              <p>
+              I was motivated to begin the Refined Notepad project in Summer 2018 because of a motivation to learn more about the Python programming language and creating a GUI. I began to think about a program I could create that could have real-world use. Eventually, I came up with the idea of creating a text editor of sorts in order to enhance my knowledge of the Python programming language. I also thought it would be fun to create something that I could use in my daily life. With these goals in mind, I set off on creating a notepad-like text editor in Python and began coding in October using the GitHub flow model and industry standard practices.
+              </p>
+
+              <!-- Creation Process Paragraph -->
+              <p>
+                Working on this project has been a fun learning experience as I have learned more about Python and industry standard procedures that are followed when creating a software project. Once I formalized the idea for my project, I drew a diagram on how it would function. After this, I created a GitHub repository to house the projects code and related material. I then began to code my Project in Python3 using the Tkinter package to create the notepad’s GUI, in the Atom text editor. I began by implementing code that would create the window and an extremely basic GUI for the notepad that the user could type in. I then set about creating a menubar for the notepad, with several submenus to give the user access to the notepad’s features. The first submenu was the “File” menu, which contained options for saving the user’s writing and exiting the program. I had to implement these saving and exiting features as functions and then create buttons for them in “File” menu, which when clicked would execute the function. Additionally, I created a “Help” menu with information about the program and where to go for assistance. I followed a similar process for when I implemented the “File” menu’s features, but instead of calling functions that altered the program’s state, the “Help” menu’s functions simply displayed a pop-up message. Throughout this implementation process, I regularly committed, with detailed messages pertaining to what the commit was doing, and pushed these commits to GitHub. After completing these tasks, I now had a basic notepad application created in Python.
+              </p>
+              <p>
+                Implementing features became more challenging after this and as a result, I began to rely more heavily on the GitHub flow model. I created issues in the Issue Tracker to note potential features and bugs for the program. Additionally, I also used the Issue Tracker to receive and respond to software reviews for my program. I often created branches for adding new features and fixing bugs. For example, when creating the “Edit” menu (which contained undo, redo, copy, etc. features), I made a separate branch for this because these features were more challenging to implement than the previous ones. I would regularly commit and push to these branches as I implemented the code. Since these branches were separate from the master branch, if something was broken or not completed, it would not affect the main codebase for the program. Additionally, once I had pushed completed code to these branches, I would create Pull Requests containing the branch’s code and a description as to what it did. I would then test and review these Pull Requests before deciding whether or not to merge them into the master branch. I also took care in organizing the repository’s files by, for example, separating code into a folder called “src” and separating project-related content into a folder called “docs”. This gave me good experience in following the GitHub flow model and adhering to industry standard procedures.
+              </p>
+              <p>
+                Having thorough testing is key for any software project to be truly successful. I am using Travis CI for testing so my project is checked automatically every time content is pushed to the repository. Currently, Travis CI tests the quality of the program’s Python code by checking to see if it adheres to the PEP8 style guide standards. Additionally, there are also checks in place to check the quality of the program’s writing, such as for the README, using Proselint. I am currently working to implement and create more automated testing for the project, but I have had trouble doing this. As a result, to check the program itself I am currently doing manual testing by running the program and completing a variety of different tasks, in a variety of different orders, to make sure everything is functioning correctly.
+              </p>
+              <p>
+                As of right now, my software project is functioning with no issues. The user can write in the program’s text area and save or open writing using implemented features. Additionally, the user can use a host of features for formatting the text such as features for redoing, undoing, copying, cutting, and pasting text. The user also has access to help features with information about the program and how to report issues. These features help enhance the user experience.
+              </p>
+              <p>
+                Here is a photo of the program running:
+              </p>
+              <p>
+                <center><img src="../images/portfolio/refined-notepad-2018.png" alt="Refined Notepad"></center>
+              </p>
+              <p>
+                This project is still a work in progress. In the future, I hope to add more features to improve the user experience, such as a font choosing feature, a text bolding feature, a text color changing feature, and more. As I update continue to add to and update the project I will regularly update this page.
+              </p>
+
+              <div class="cta__action">
+                  <a class="btn btn--primary full-width" href="https://github.com/lussierc/refinedNotepadPython">View Project Repository</a>
+              </div>
+              <p></p>
+              <div class="cta__action">
+                  <a class="btn btn--primary full-width" href="../projects.html">View More Projects</a>
+              </div>
+        </section> <!-- end blog-content-wrap -->
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+            <div class="row">
+                <div class="col-full">
+
+                    <div class="footer-logo">
+                        <a class="footer-site-logo" href="#0"><img src="../images/logo.png" alt="Homepage"></a>
+                    </div>
+
+                    <ul class="footer-social">
+                      <li><a href="https://www.linkedin.com/in/christianlussier/">
+                          <i class="im im-linkedin" aria-hidden="true"></i>
+                          <span>LinkedIn</span>
+                      </a></li>
+                      <li><a href="https://github.com/lussierc">
+                          <i class="im im-github" aria-hidden="true"></i>
+                          <span>GitHub</span>
+                      </a></li>
+                      <li><a href="https://stackoverflow.com/users/9723868/lussierc">
+                          <i class="im im-stackoverflow" aria-hidden="true"></i>
+                          <span>Stack Overflow</span>
+                      </a></li>
+                      <li><a href="https://www.facebook.com/christian.lussier.96">
+                          <i class="im im-facebook" aria-hidden="true"></i>
+                          <span>Facebook</span>
+                      </a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="row footer-bottom">
+
+                <div class="col-twelve">
+                    <div class="copyright">
+                        <span>© Copyright Christian Lussier 2019</span>
+                        <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>
+                    </div>
+
+                    <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+            </div> <!-- end footer-bottom -->
+
+        </footer> <!-- end footer -->
+
+
+        <div id="preloader">
+            <div id="loader"></div>
+        </div>
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>
