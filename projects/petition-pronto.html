@@ -78,14 +78,14 @@
 
                 <h1 class="page-header__title">
                     <a href="#0" title="">
-                        The Bosco Programming Language
+                        Petition-Pronto
                     </a>
                 </h1>
                 <p>
-                  The Bosco Programming Language is a simple programming language containing whimsical dog-related elements in it's grammar.
+                  Petition-Pronto allows students to submit a petition to their respective department's faculty for review.
                 </p>
                 <p>
-                    <a href="https://github.com/lussierc/refinedNotepadPython" class="btn btn--stroke page-header__btn">See The GitHub Repository</a>
+                    <a href="https://github.com/GatorEducator/petition-pronto" class="btn btn--stroke page-header__btn">See The GitHub Repository</a>
                 </p>
             </article>
         </div>
@@ -100,39 +100,46 @@
       <div class="row blog-content">
           <div class="col-full blog-content__main">
 
-              <p class="lead">Working on Refined Notepad has been a fun learning experience that has taught me more about Python, the GitHub flow model, and industry standard practices.</p>
-
-              <!-- Project Motivation Paragraph/Intro Paragraph -->
-              <p>
-              I was motivated to begin the Refined Notepad project in Summer 2018 because of a motivation to learn more about the Python programming language and creating a GUI. I began to think about a program I could create that could have real-world use. Eventually, I came up with the idea of creating a text editor of sorts in order to enhance my knowledge of the Python programming language. I also thought it would be fun to create something that I could use in my daily life. With these goals in mind, I set off on creating a notepad-like text editor in Python and began coding in October using the GitHub flow model and industry standard practices.
-              </p>
-
-              <!-- Creation Process Paragraph -->
-              <p>
-                Working on this project has been a fun learning experience as I have learned more about Python and industry standard procedures that are followed when creating a software project. Once I formalized the idea for my project, I drew a diagram on how it would function. After this, I created a GitHub repository to house the projects code and related material. I then began to code my Project in Python3 using the Tkinter package to create the notepad’s GUI, in the Atom text editor. I began by implementing code that would create the window and an extremely basic GUI for the notepad that the user could type in. I then set about creating a menubar for the notepad, with several submenus to give the user access to the notepad’s features. The first submenu was the “File” menu, which contained options for saving the user’s writing and exiting the program. I had to implement these saving and exiting features as functions and then create buttons for them in “File” menu, which when clicked would execute the function. Additionally, I created a “Help” menu with information about the program and where to go for assistance. I followed a similar process for when I implemented the “File” menu’s features, but instead of calling functions that altered the program’s state, the “Help” menu’s functions simply displayed a pop-up message. Throughout this implementation process, I regularly committed, with detailed messages pertaining to what the commit was doing, and pushed these commits to GitHub. After completing these tasks, I now had a basic notepad application created in Python.
+              <p align="center">
+                  <img src="../images/blog/PetitionLogo.jpg"
+                       srcset="../images/blog/PetitionLogo.jpg,
+                          ../images/blog/PetitionLogo.jpg,
+                          ../images/blog/PetitionLogo.jpg"
+                       sizes="(max-width: 2000px) 100vw, 2000px" alt="">
               </p>
               <p>
-                Implementing features became more challenging after this and as a result, I began to rely more heavily on the GitHub flow model. I created issues in the Issue Tracker to note potential features and bugs for the program. Additionally, I also used the Issue Tracker to receive and respond to software reviews for my program. I often created branches for adding new features and fixing bugs. For example, when creating the “Edit” menu (which contained undo, redo, copy, etc. features), I made a separate branch for this because these features were more challenging to implement than the previous ones. I would regularly commit and push to these branches as I implemented the code. Since these branches were separate from the master branch, if something was broken or not completed, it would not affect the main codebase for the program. Additionally, once I had pushed completed code to these branches, I would create Pull Requests containing the branch’s code and a description as to what it did. I would then test and review these Pull Requests before deciding whether or not to merge them into the master branch. I also took care in organizing the repository’s files by, for example, separating code into a folder called “src” and separating project-related content into a folder called “docs”. This gave me good experience in following the GitHub flow model and adhering to industry standard procedures.
+                Petition-Pronto is expected to be used by students and faculty at Allegheny Collge during the upcoming academic year.
+                Petition-Pronto is a website where students can fill out a form with their information to submit a petition to a specified academic department's faculty.
+                Students could write their petitions to change, for instance, their graduation requirements or substitute one class in the place of another.
+                Once the form is submitted, when faculty members of the specified department login to the website, they will see it appear in the unreviewed petitions section of the homepage for logged in users.
+                They can then click on an "Inspect" button that resides next to the basic petition information, which will display more detailed petition information along with the petition text itself.
+                On this page, they can then approve or disprove the petition. Once the petition is reviewed by all the department's faculty members,
+                an email will be sent to the students and faculty members who reviewed the petition, letting them know the result (whether it was approved or not) of the petition voting.
               </p>
               <p>
-                Having thorough testing is key for any software project to be truly successful. I am using Travis CI for testing so my project is checked automatically every time content is pushed to the repository. Currently, Travis CI tests the quality of the program’s Python code by checking to see if it adheres to the PEP8 style guide standards. Additionally, there are also checks in place to check the quality of the program’s writing, such as for the README, using Proselint. I am currently working to implement and create more automated testing for the project, but I have had trouble doing this. As a result, to check the program itself I am currently doing manual testing by running the program and completing a variety of different tasks, in a variety of different orders, to make sure everything is functioning correctly.
+                This tool will greatly improve upon the current petition process, where students must email their petition to a faculty member and wait till all the faculty members meet to vote on the petition or respond to the email.
+                The student then has to follow up with the faculty if they don't remember to let them know the result of the petition voting. Now, everything can be done online and the student will be let know of the petition voting decision as soon as possible.
+                This will make this educational process much more efficient at Allegheny.
               </p>
               <p>
-                As of right now, my software project is functioning with no issues. The user can write in the program’s text area and save or open writing using implemented features. Additionally, the user can use a host of features for formatting the text such as features for redoing, undoing, copying, cutting, and pasting text. The user also has access to help features with information about the program and how to report issues. These features help enhance the user experience.
-              </p>
-              <p>
-                Here is a photo of the program running:
-              </p>
-              <p>
-                <center><img src="../images/portfolio/refined-notepad-2018.png" alt="Refined Notepad"></center>
-              </p>
-              <p>
-                This project is still a work in progress. In the future, I hope to add more features to improve the user experience, such as a font choosing feature, a text bolding feature, a text color changing feature, and more. As I update continue to add to and update the project I will regularly update this page.
+                Petition-Pronto will be apart of a suite of tools created by the GatorEducator organization on GitHub.
+                This suite of tools will be used for the enhancement of the education experience at Allegheny College.
+                Within this suite of tools, there are several similarly-minded tools being developed by other groups.
+                These tools include a Course Survey tool, which allows students to share their concerns about a course to the instructor,
+                an Academic Advising tool, to improve the communication between student and advisor, and an Interactive Quiz tool,
+                which will allow instructors to create more customized quizzes for their students. Additionally, an Institutional Review Board Checklist tool is being developed which will allow students to get their proposals reviewed by the College's IRB.
+                These tools will join GatorEducator's GatorGrader tool that is in use at Allegheny College and which automatically checks the work of student programmer and writers.
               </p>
 
               <div class="cta__action">
-                  <a class="btn btn--primary full-width" href="https://github.com/lussierc/refinedNotepadPython">View Project Repository</a>
+                  <a class="btn btn--primary full-width" href="https://github.com/GatorEducator/petition-pronto">View Project Repository</a>
               </div>
+
+              <p></p>
+              <div class="cta__action">
+                  <a class="btn btn--primary full-width" href="../blog-petition-pronto-2019.html">Read About My Experience Working On This Project</a>
+              </div>
+
               <p></p>
               <div class="cta__action">
                   <a class="btn btn--primary full-width" href="../projects.html">View More Projects</a>
