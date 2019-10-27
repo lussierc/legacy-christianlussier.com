@@ -3048,6 +3048,7 @@ html.no-csstransitions .home-content__main {
 
 .s-contact {
     background-color: #151515;
+    /* formerly testimonal-bg.jpg: */
     background-image: url("../images/contact-bg.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
