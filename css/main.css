@@ -1,7 +1,7 @@
 /*==============================================================================
 
  * Template Name: Zuman - Creative Personal Portfolio
- * Template URI: 
+ * Template URI:
  * Author: ixtheme - (https://themeforest.net/user/ixtheme)
  * Description: Personal Portfolio Template
  * Version: 1.2
@@ -9,10 +9,10 @@
 
 
 ==============================================================================
-    
+
     [Table of CSS contents]
     ===================
-	
+
     01. GOOGLE FONTS
     02. DEFAULT CSS
     03. COMMON CSS
@@ -1101,7 +1101,7 @@ header {
 ========================================================================== */
 
 .contact_wrapper {
-	background-color: #111;
+	background-color: #030303;
 	padding: 100px 0;
 	color: #fff;
 	border-radius: 5px;
@@ -1255,4 +1255,3 @@ footer p {
 footer p span {
 	color: #fff;
 }
-
