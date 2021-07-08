@@ -1,6 +1,6 @@
 # Legacy Version - christianlussier.com
 
-This is the legacy (previous) version of christianlussier.com, which has not been updated since 2019. A new version is being used today, but this template is available to those who are interested.
+This is the legacy (previous) version of christianlussier.com, which has not been updated since 2019. A new version is being used today, but this template is available to those who are interested. You can view the legacy website in action on the web, [here](https://legacy-christianlussier.netlify.app).
 
 ---
 
