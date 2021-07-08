@@ -444,7 +444,7 @@
                         <!-- end contact info ( email - phone) -->
                         <!-- start contact form -->
                         <div class="col-lg-7 col-md-12">
-                            <form id="contact-form" action="php/mail.php">
+                            <form id="contact" method="POST" data-netlify="true">
                                 <div class="row">
                                     <div class="col">
                                         <p class="form-message"></p>
@@ -453,13 +453,14 @@
                                 <div class="row">
                                     <div class="col-md-5">
                                         <!-- input field for NAME -->
-                                        <input class="input_field required" type="text" name="name" placeholder="Name">
+                                        <input class="input_field required" type="text" name="contactName" id="contactName" placeholder="Name">
                                         <!-- input field for EMAIL -->
-                                        <input class="input_field required" type="email" name="email" placeholder="Email">
+                                        <input class="input_field required" type="email" name="contactEmail" id="contactEmail" placeholder="Email">
                                     </div>
                                     <div class="col-md-7">
+                                        <input class="input_field required" type="text" name="contactSubject" id="contactSubject" placeholder="Message Subject">
                                         <!-- input field for MESSAGE -->
-                                        <textarea class="input_field required" name="message" placeholder="Enter your message here!"></textarea>
+                                        <textarea class="input_field required" name="contactMessage" id="contactMessage" placeholder="Enter your message here..."></textarea>
                                     </div>
                                 </div>
                                 <div class="row">
